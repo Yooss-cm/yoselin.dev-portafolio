@@ -1,0 +1,82 @@
+.btn-neon {
+  position: relative;
+  transition: 0.2s;
+  font-weight: bold;
+  letter-spacing: 1px; /* <- reducido */
+  padding: 10px 16px;   /* <- tamaño compacto */
+  font-size: 0.875rem;  /* <- text-sm en Tailwind */
+  width: 100%;          /* <- asegúrate que se adapte */
+  max-width: 300px;     /* <- controla longitud si está muy ancho */
+  text-align: center;
+}
+
+
+/* Al hacer hover */
+.btn-neon:hover {
+  background: #CCAA66;
+  box-shadow: 0 0 10px #CCAA66, 0 0 20px #CCAA66, 0 0 40px #CCAA66;
+}
+
+/* Estilo general para líneas animadas */
+.btn-neon .span1,
+.btn-neon .span2,
+.btn-neon .span3,
+.btn-neon .span4 {
+  position: absolute;
+  display: block;
+}
+
+/* Línea superior */
+.btn-neon .span1 {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #ffffff);
+}
+.btn-neon:hover .span1 {
+  left: 100%;
+  transition: 1s;
+}
+
+/* Línea derecha */
+.btn-neon .span2 {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #ffffff);
+}
+.btn-neon:hover .span2 {
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+
+/* Línea inferior */
+.btn-neon .span3 {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, black);
+}
+.btn-neon:hover .span3 {
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+
+/* Línea izquierda */
+.btn-neon .span4 {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, black);
+}
+.btn-neon:hover .span4 {
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.75s;
+}
