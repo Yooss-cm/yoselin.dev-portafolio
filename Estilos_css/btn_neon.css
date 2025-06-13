@@ -13,8 +13,8 @@
 
 /* Al hacer hover */
 .btn-neon:hover {
-  background: #CCAA66;
-  box-shadow: 0 0 10px #CCAA66, 0 0 20px #CCAA66, 0 0 40px #CCAA66;
+  background: #9f38eb;
+  box-shadow: 0 0 10px #9f38eb, 0 0 20px #9f38eb, 0 0 40px #9f38eb;
 }
 
 /* Estilo general para líneas animadas */
@@ -32,7 +32,7 @@
   left: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(90deg, transparent, #ffffff);
+  background: linear-gradient(90deg, transparent, #7DD3FC);
 }
 .btn-neon:hover .span1 {
   left: 100%;
@@ -45,7 +45,7 @@
   right: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(180deg, transparent, #ffffff);
+  background: linear-gradient(180deg, transparent, #7DD3FC);
 }
 .btn-neon:hover .span2 {
   top: 100%;
@@ -59,7 +59,7 @@
   right: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(270deg, transparent, black);
+  background: linear-gradient(270deg, transparent, #7DD3FC);
 }
 .btn-neon:hover .span3 {
   right: 100%;
@@ -73,7 +73,7 @@
   left: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(360deg, transparent, black);
+  background: linear-gradient(360deg, transparent, #7DD3FC);
 }
 .btn-neon:hover .span4 {
   bottom: 100%;

@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const emailIcon = document.getElementById("emailIcon");
+  const emailForm = document.getElementById("emailForm");
   const destinatario = "yosscm2@gmail.com";
 
-  if (emailIcon) {
-    emailIcon.addEventListener("click", function () {
+  if (emailForm) {
+    emailForm.addEventListener("click", function () {
       const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 
       if (isMobile) {
