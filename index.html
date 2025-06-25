@@ -25,10 +25,9 @@
                 <!-- Links | Menú pantallas grandes -->
                 <div class="hidden md:flex space-x-6 text-lg">
                     <a href="" class="hover:text-[#9f38eb] transition">Sobre mí</a>
-                    <a href="" class="hover:text-[#9f38eb] transition">Servicios</a>
-                    <a href="" class="hover:text-[#9f38eb] transition">Portafolio</a>
-                    <a href="" class="hover:text-[#9f38eb] transition">Skill's</a>
-                    <a href="" class="hover:text-[#9f38eb] transition">Contáctame</a>
+                    <a href="#tech" class="hover:text-[#9f38eb] transition">Tecnologías</a>
+                    <a href="" class="hover:text-[#9f38eb] transition">Proyectos</a>
+                    <a href="" class="hover:text-[#9f38eb] transition">Contacto</a>
                 </div>
                 <!-- Solo visible en pantallas medianas en adelante -->
                 <div class="hidden md:block bg-transparent">
@@ -53,8 +52,8 @@
                 <a href="#"
                     class="border border-white rounded-md px-4 py-2 w-full max-w-[90%] text-center hover:border-[#9f38eb] hover:text-[#C084FC] transition duration-300">Sobre
                     mí</a>
-                <a href="#"
-                    class="border border-white rounded-md px-4 py-2 w-full max-w-[90%] text-center hover:border-[#9f38eb] hover:text-[#C084FC] transition duration-300">Servicios</a>
+                <a href="#tech"
+                    class="border border-white rounded-md px-4 py-2 w-full max-w-[90%] text-center hover:border-[#9f38eb] hover:text-[#C084FC] transition duration-300">Tecnologías</a>
                 <a href="#"
                     class="border border-white rounded-md px-4 py-2 w-full max-w-[90%] text-center hover:border-[#9f38eb] hover:text-[#C084FC] transition duration-300">Portafolio</a>
                 <a href="#"
@@ -87,9 +86,10 @@
 
             <!-- Descripción adicional -->
             <p class="text-base text-gray-300 mb-6">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae non, hic corrupti facere ipsam dolorum
-                architecto rem ducimus commodi soluta. Molestias commodi exercitationem excepturi nemo dolor nesciunt
-                consequatur numquam repudiandae.
+                Apasionada por el diseño y desarrollo front-end,
+                me enfoco en crear soluciones digitales funcionales y atractivas.
+                Cuento con experiencia en consultoría tecnológica y proyectos reales,
+                donde la prioridad siempre ha sido entender y aportar valor a cada cliente.
             </p>
 
             <!-- Botones de acción -->
@@ -143,6 +143,149 @@
         </div>
     </section>
 
+    <!-- Mis tecnologías dominadas -->
+    <section class="bg-[#0D0D0D] py-12 px-6">
+        <h2 class="text-3xl font-bold text-center text-white mb-10">Tecnologías que domino</h2>
+
+        <div class="max-w-6xl mx-auto bg-white/10 rounded-md p-14 relative">
+            <!-- Carrusel contenedor -->
+            <div id="carouselContainer" class="relative overflow-hidden">
+                <!-- Slides/Presentación -->
+                <div id="carouselSlides" class="whitespace-nowrap transition-transform duration-700 ease-in-out flex">
+                    <!-- Slide 1: Frontend -->
+                    <div class="min-w-full flex flex-col items-center gap-6">
+                        <h3 class="text-2xl font-bold text-gray-400 mb-5 text-center items-center gap-2">
+                            <i class="fa-solid fa-code text-indigo-600"></i> Frontend / Lenguajes / Frameworks
+                        </h3>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-8 gap-8 place-items-center">
+                            <div class="group relative hover:scale-105 transition-transform cursor-pointer">
+                                <i
+                                    class="fa-brands fa-html5 text-5xl text-orange-500 group-hover:scale-110 transition-transform"></i>
+                                <p class="text-sm mt-1 font-semibold text-white text-center">HTML</p>
+                            </div>
+                            <div class="group relative hover:scale-105 transition-transform cursor-pointer">
+                                <i
+                                    class="fa-brands fa-css3-alt text-5xl text-blue-600 group-hover:scale-110 transition-transform"></i>
+                                <p class="text-sm mt-1 font-semibold text-white text-center">CSS</p>
+                            </div>
+                            <div class="group relative hover:scale-105 transition-transform cursor-pointer">
+                                <img src="./assets/TailwindCSS.png" alt="Tailwind CSS Logo"
+                                    class="w-12 h-12 mx-auto group-hover:scale-110 transition-transform">
+                                <p class="text-sm mt-1 font-semibold text-white text-center">TailwindCSS</p>
+                            </div>
+                            <div class="group relative hover:scale-105 transition-transform cursor-pointer">
+                                <i
+                                    class="fa-brands fa-js text-5xl text-yellow-400 group-hover:scale-110 transition-transform"></i>
+                                <p class="text-sm mt-1 font-semibold text-white text-center">JavaScript</p>
+                            </div>
+                            <div class="group relative hover:scale-105 transition-transform cursor-pointer">
+                                <i
+                                    class="fa-brands fa-react text-5xl text-cyan-400 group-hover:scale-110 transition-transform"></i>
+                                <p class="text-sm mt-1 font-semibold text-white text-center">REACT</p>
+                            </div>
+                            <div class="group relative hover:scale-105 transition-transform cursor-pointer">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg"
+                                    class="w-12 h-12 mx-auto group-hover:scale-110 transition-transform" alt="Dart">
+                                <p class="text-sm mt-1 font-semibold text-white text-center">DART</p>
+                            </div>
+                            <div class="group relative hover:scale-105 transition-transform cursor-pointer">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg"
+                                    class="w-12 h-12 mx-auto group-hover:scale-110 transition-transform" alt="Flutter">
+                                <p class="text-sm mt-1 font-semibold text-white text-center">FLUTTER</p>
+                            </div>
+                            <div class="group relative hover:scale-105 transition-transform cursor-pointer">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xamarin/xamarin-original.svg"
+                                    class="w-12 h-12 mx-auto group-hover:scale-110 transition-transform" alt="Xamarin">
+                                <p class="text-sm mt-1 font-semibold text-white text-center">XAMARÍN</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 2: Backtend -->
+                    <div class="min-w-full flex flex-col items-center gap-6">
+                        <h3 class="text-2xl font-bold text-gray-400 mb-5 text-center items-center gap-2">
+                            <i class="fa-solid fa-server text-rose-500"></i> Back-end/Lenguajes/Frameworks
+                        </h3>
+                        <!-- Modificación de columnas según las tecnologías y su espaciado 8*3-->
+                        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-24 place-items-center">
+                            <!-- Tarjeta HTML -->
+                            <div class="group relative hover:scale-105 transition-transform cursor-pointer">
+                                <i
+                                    class="fa-brands fa-laravel text-5xl text-orange-600 group-hover:scale-110 transition-transform"></i>
+                                <p class="text-sm mt-1 font-semibold text-white text-center">LARAVEL</p>
+                            </div>
+                            <div class="group relative hover:scale-105 transition-transform cursor-pointer">
+                                <i
+                                    class="fa-brands fa-php text-5xl text-indigo-700 group-hover:scale-110 transition-transform"></i>
+                                <p class="text-sm mt-1 font-semibold text-white text-center">PHP</p>
+                            </div>
+                            <div class="group relative hover:scale-105 transition-transform cursor-pointer">
+                                <i
+                                    class="fa-brands fa-python text-5xl text-yellow-500 group-hover:scale-110 transition-transform"></i>
+                                <p class="text-sm mt-1 font-semibold text-white text-center">PYTHON</p>
+                            </div>
+                            <div class="group relative hover:scale-105 transition-transform cursor-pointer">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                                    class="w-12 h-12 mx-auto group-hover:scale-110 transition-transform" alt="Java">
+                                <p class="text-sm mt-1 font-semibold text-white text-center">JAVA</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- Slide 3: Gestores DB -->
+                    <div class="min-w-full flex flex-col items-center gap-6">
+                        <h3 class="text-2xl font-bold text-gray-400 mb-5 text-center items-center gap-2">
+                            <i class="fa-solid fa-database text-teal-500"></i> Base de datos y backend services
+                        </h3>
+                        <!-- Modificación de columnas según las tecnologías y su espaciado 8*3-->
+                        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-24 place-items-center">
+                            <div class="group relative hover:scale-105 transition-transform cursor-pointer">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
+                                    class="w-12 h-12 mx-auto group-hover:scale-110 transition-transform" alt="Firebase">
+                                <p class="text-sm mt-1 font-semibold text-white text-center">Firebase</p>
+                            </div>
+                            <div class="group relative hover:scale-105 transition-transform cursor-pointer">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                                    class="w-12 h-12 mx-auto group-hover:scale-110 transition-transform" alt="MySQL">
+                                <p class="text-sm mt-1 font-semibold text-white text-center">MySQL</p>
+                            </div>
+                            <div class="group relative hover:scale-105 transition-transform cursor-pointer">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+                                    class="w-12 h-12 mx-auto group-hover:scale-110 transition-transform"
+                                    alt="PostgreSQL">
+                                <p class="text-sm mt-1 font-semibold text-white text-center">PostgreSQL</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 4: Versionadores -->
+                    <div class="min-w-full flex flex-col items-center gap-6">
+                        <h3 class="text-2xl font-bold text-gray-400 mb-5 text-center items-center gap-2">
+                            <i class="fa-brands fa-git-alt text-yellow-500"></i> Control de versiones
+                        </h3>
+                        <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 gap-24 place-items-center">
+                            <!-- Modificación de columnas según las tecnologías y su espaciado 8*3-->
+                            <div class="group relative hover:scale-105 transition-transform cursor-pointer">
+                                <i
+                                    class="fa-brands fa-github text-5xl text-[#C084FC] group-hover:scale-110 transition-transform"></i>
+                                <p class="text-sm mt-1 font-semibold text-white text-center">GitHub</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Botón izquierdo: ir al slide anterior -->
+                <button id="prevBtn"
+                    class="absolute left-0 top-1/2 transform -translate-y-1/2 px-4 py-2 text-white hover:text-[#9f38eb] z-10">
+                    <i class="fa-solid fa-chevron-left text-2xl"></i>
+                </button>
+
+                <!-- Botón derecho: ir al slide siguiente -->
+                <button id="nextBtn"
+                    class="absolute right-0 top-1/2 transform -translate-y-1/2 px-4 py-2 text-white hover:text-[#9f38eb] z-10">
+                    <i class="fa-solid fa-chevron-right text-2xl"></i>
+                </button>
+            </div>
+    </section>
+
+
     <!-- Footer -->
     <footer class="bg-[#0D0D0D] text-white px-6 py-10" id="contactanos">
         <div class="mt-5 border-t border-white pt-2 text-center text-xs text-gray-400">
@@ -151,13 +294,13 @@
         <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-center md:text-left">
             <!-- Imagen de perfil -->
             <div class="flex flex-col items-center justify-center w-full">
-                <img src="../assets/logoYC.png" alt="Logo YOSSDEV"
-                    class="w-32 h-32 rounded-xl object-contain shadow" />
+                <img src="./assets/Foto_yoss.jpg" alt="Logo YOSSDEV"
+                    class="w-32 h-32 rounded-full object-contain shadow" />
             </div>
 
             <!-- Contactos -->
             <div>
-                <h3 class="text-lg font-bold mb-3 text-[#C084FC]">Contactos</h3>
+                <h3 class="text-lg font-bold mb-3 text-[#C084FC]">Contactos y redes</h3>
                 <ul class="space-y-3 text-sm">
 
                     <li>
@@ -165,25 +308,25 @@
                             rel="noopener noreferrer"
                             class="flex items-center justify-center md:justify-start gap-2 hover:underline">
                             <i class="fa-brands fa-whatsapp" style="color: #c084fc;"></i>
-                              56 31 29 31 12
+                            56 31 29 31 12
                         </a>
                     </li>
                     <li>
                         <button id="emailForm" class="hover:text-[#9f38eb] transition">
-                            <i class="fa-solid fa-envelope" style="color: #c084fc;"></i>  yosscm2@gmail.com
+                            <i class="fa-solid fa-envelope" style="color: #c084fc;"></i> yosscm2@gmail.com
                         </button>
                     </li>
 
                     <li>
                         <a class="hover:text-[#9f38eb] transition" href="https://github.com/Yooss-cm"><i
-                                class="fa-brands fa-github" style="color: #c084fc;" ></i>  Github</a>
+                                class="fa-brands fa-github" style="color: #c084fc;"></i> Github</a>
                     </li>
 
                     <li>
                         <a class="hover:text-[#9f38eb] transition" href="https://linkedin.com/in/yoselin-carrera-m"
                             target="_blank" rel="noopener noreferrer"
                             class="flex items-center justify-center md:justify-start gap-2 hover:underline">
-                            <i class="fa-brands fa-linkedin" style="color: #c084fc;"></i>  LinkedIn
+                            <i class="fa-brands fa-linkedin" style="color: #c084fc;"></i> LinkedIn
                         </a>
                     </li>
                 </ul>
@@ -197,10 +340,8 @@
                 <form id="contactForm">
                     <input type="text" id="mensaje" name="body" placeholder="Escribe tu mensaje..."
                         class="w-full px-4 py-2 rounded mb-3 text-black" required />
-
-
                     <button type="submit"
-                        class="btn-neon w-full max-w-full sm:max-w-[300px] bg-[#C084FC] text-white hover:bg-[#9f38eb] font-semibold px-4 py-2 rounded flex justify-center items-center gap-2 relative overflow-hidden text-sm sm:text-base">
+                        class="btn-neon w-full max-w-full sm:max-w-full bg-[#C084FC] text-white hover:bg-[#9f38eb] font-semibold px-4 py-2 rounded flex justify-center items-center gap-2 relative overflow-hidden text-sm sm:text-base">
                         <span class="span1"></span>
                         <span class="span2"></span>
                         <span class="span3"></span>
@@ -220,6 +361,7 @@
     <script src="./js/email.js"></script>
     <script src="./js/emailForm.js"></script>
     <script src="./js/emailFooter.js"></script>
+    <script src="./js/carruselTech.js"></script>
 
 </body>
 
